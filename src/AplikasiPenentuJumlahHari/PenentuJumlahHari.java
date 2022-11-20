@@ -236,7 +236,7 @@ public class PenentuJumlahHari extends javax.swing.JFrame {
 
     private void hitungButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hitungButtonActionPerformed
         if(tahunTextField.getText().isEmpty()){
-            JOptionPane.showMessageDialog(null, "Error: isian tahun kosong!", "Error: isisan tahun kosong!", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error: isian tahun kosong!", "Error: isian tahun kosong!", JOptionPane.WARNING_MESSAGE);
         }  else {
             int tahun = Integer.parseInt(tahunTextField.getText());
             int jumlahHari;
